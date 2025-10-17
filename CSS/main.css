@@ -7,7 +7,18 @@
   --bs-body-bg: #F6F3ED;
 }
 
+button{
+  background-color: var(--primary);
+  color: var(--light);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
 
+button:hover{
+  background-color: var(--light);
+  color:var(--primary);
+}
 
 .navbar-brand {
   color: #F6F3ED;
